@@ -1,0 +1,9 @@
+name = Taxonomy
+core = 7.x
+package = Entity
+dependencies[] = features
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[taxonomy][] = category
+features[taxonomy][] = colors
+features[taxonomy][] = size

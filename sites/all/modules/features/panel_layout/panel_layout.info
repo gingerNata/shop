@@ -1,0 +1,8 @@
+name = Panel_layout
+core = 7.x
+package = Panels
+dependencies[] = ctools
+dependencies[] = panels
+features[ctools][] = panels:layouts:1
+features[features_api][] = api:2
+features[panels_layout][] = product

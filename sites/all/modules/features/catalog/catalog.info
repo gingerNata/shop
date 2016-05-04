@@ -1,0 +1,7 @@
+name = Catalog
+core = 7.x
+package = Menus
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = menu-category
