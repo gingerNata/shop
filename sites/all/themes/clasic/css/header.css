@@ -1,0 +1,22 @@
+#block-menu-menu-category li {
+    list-style: none;
+}
+
+#main-menu {
+    background: #3b3441;
+    width: 100%;
+    text-align: center;
+}
+
+.main-category-menu li > a {
+    color: white;
+    text-decoration: none;
+}
+a.parent {
+    /*display: inline-block;*/
+    font-size: 150%;
+}
+.paren-item{
+    display: block;
+    float: left;
+}

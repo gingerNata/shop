@@ -8,9 +8,11 @@ core = 7.x
 stylesheets[all][] = css/layout.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/colors.css
+stylesheets[all][] = css/header.css
 stylesheets[print][] = css/print.css
 
 regions[header] = Header
+regions[header_menu] = Header menu
 regions[help] = Help
 regions[page_top] = Page top
 regions[page_bottom] = Page bottom
